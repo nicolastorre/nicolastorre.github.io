@@ -28,11 +28,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: debug
+        run: echo ${{ secrets.CV_URL }}
+
       - name: Install and Build 🔧
         run: |
           ls scripts/
           npm ci
-          echo ${{ secrets.CV_URL }}
           node ./scripts/pdf.js ${{ secrets.CV_URL }}
 
       - name: Archive code coverage results
