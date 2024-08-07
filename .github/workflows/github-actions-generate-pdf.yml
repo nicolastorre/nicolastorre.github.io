@@ -29,13 +29,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install and Build 🔧
-        env:
-          CV_URL: ${{ secrets.CV_URL }}
         run: |
           ls scripts/
           npm ci
-          echo $CV_URL
-          node ./scripts/pdf.js $CV_URL
+          echo ${{ secrets.CV_URL }}
+          node ./scripts/pdf.js ${{ secrets.CV_URL }}
 
       - name: Archive code coverage results
         uses: actions/upload-artifact@v4
