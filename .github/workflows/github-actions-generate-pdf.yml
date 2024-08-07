@@ -40,20 +40,9 @@ jobs:
           name: cv
           path: cv.pdf
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Preprare deploy
+        run: mv cv.pdf build/
 
-      - name: Checkout target branch
-        run: |
-          git fetch --all
-          git checkout -b gh-pages origin/gh-pages
-
-      - name: Commit and push changes
-        run: |
-          git add cv.pdf
-          git commit -m "Generate PDF"
-          git push origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+          folder: build # The folder the action should deploy.
