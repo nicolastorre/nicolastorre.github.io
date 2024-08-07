@@ -5,6 +5,8 @@ on:
     workflows: ["GitHub Actions Deploy"]
     types:
       - completed
+env:
+  CV_URL: http://localhost:3000
 permissions:
   contents: write
 jobs:

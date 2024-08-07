@@ -1,11 +1,12 @@
 const puppeteer = require("puppeteer");
 
-const ENV_URL = "http://localhost:3000";
+const args = process.argv.slice(2);
+const CV_URL = args[0] || "https://localhost:3000";
 
-async function init() {
+async function generatePDF(url) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(ENV_URL, {
+  await page.goto(url, {
     waitUntil: "networkidle2",
   });
   await page.pdf({
@@ -17,4 +18,4 @@ async function init() {
   await browser.close();
 }
 
-init();
+generatePDF(CV_URL);
