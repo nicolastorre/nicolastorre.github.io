@@ -1,0 +1,31 @@
+name: GitHub Actions Deploy
+run-name: ${{ github.actor }} is generating PDF
+on:
+  push:
+    branches:
+      - gh-pages
+strategy:
+  matrix:
+    node-version: "20.x"
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Install and Build 🔧
+          npm ci
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: node scripts/toPDF.js
+
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv
+          path: output/cv.pdf
