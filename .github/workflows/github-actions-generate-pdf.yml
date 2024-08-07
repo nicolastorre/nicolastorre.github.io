@@ -29,6 +29,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: debug
+        env:
+          super_secret: ${{ secrets.CV_URL }}
         run: echo "${{ secrets.CV_URL }}"
 
       - name: Install and Build 🔧
