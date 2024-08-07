@@ -28,6 +28,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          ls -all
           npm ci
           node scripts/toPDF.js
 
