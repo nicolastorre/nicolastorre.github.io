@@ -37,3 +37,19 @@ jobs:
         with:
           name: cv
           path: cv.pdf
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Checkout target branch
+        run: git checkout -b gh-pages origin/gh-pages || git checkout -b gh-pages
+
+      - name: Commit and push changes
+        run: |
+          git add cv.pdf
+          git commit -m "Generate PDF"
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
