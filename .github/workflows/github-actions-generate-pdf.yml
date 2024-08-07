@@ -48,9 +48,7 @@ jobs:
       - name: Checkout target branch
         run: |
           git fetch --all
-          git stash save "here's a summary of my changes"
           git checkout -b gh-pages origin/gh-pages
-          git stash pop
 
       - name: Commit and push changes
         run: |
