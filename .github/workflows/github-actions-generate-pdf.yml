@@ -30,7 +30,6 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          ls scripts/
           npm ci
           npm run build
           node ./scripts/pdf.js ${{ secrets.CV_URL }}
