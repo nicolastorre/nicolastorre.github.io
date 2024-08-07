@@ -28,11 +28,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: debug
-        env:
-          CV_URL: ${{ secrets.CV_URL }}
-        run: echo $CV_URL
-
       - name: Install and Build 🔧
         run: |
           ls scripts/
@@ -53,7 +48,9 @@ jobs:
       - name: Checkout target branch
         run: |
           git fetch --all
+          git stash save "here's a summary of my changes"
           git checkout -b gh-pages origin/gh-pages
+          git stash pop
 
       - name: Commit and push changes
         run: |
