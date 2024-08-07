@@ -31,7 +31,7 @@ jobs:
       - name: debug
         env:
           super_secret: ${{ secrets.CV_URL }}
-        run: echo "${{ secrets.CV_URL }}"
+        run: echo $CV_URL
 
       - name: Install and Build 🔧
         run: |
