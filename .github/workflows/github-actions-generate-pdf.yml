@@ -5,8 +5,6 @@ on:
     workflows: ["GitHub Actions Deploy"]
     types:
       - completed
-env:
-  CV_URL: http://localhost:3000
 permissions:
   contents: write
 jobs:
@@ -30,7 +28,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Print secret environment variable
+        env:
+          CV_URL: ${{ vars.CV_URL }}
+        run: echo "Secret Variable: $CV_URL"
+
       - name: Install and Build 🔧
+        env:
+          CV_URL: ${{ vars.CV_URL }}
         run: |
           ls scripts/
           npm ci
