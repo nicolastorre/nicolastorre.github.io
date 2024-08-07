@@ -1,4 +1,4 @@
-name: GitHub Actions Deploy
+name: GitHub Actions Generate PDF
 run-name: ${{ github.actor }} is generating PDF
 on:
   push:
