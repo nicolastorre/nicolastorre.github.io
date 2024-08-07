@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-const ENV_URL = "https://nicolastorre.github.io";
+const ENV_URL = "http://localhost:3000";
 
 async function init() {
   const browser = await puppeteer.launch();
