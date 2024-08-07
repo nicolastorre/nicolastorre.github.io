@@ -1,9 +1,10 @@
 name: GitHub Actions Generate PDF
 run-name: ${{ github.actor }} is generating PDF
 on:
-  push:
-    branches:
-      - gh-pages
+  workflow_run:
+    workflows: ["GitHub Actions Deploy"]
+    types:
+      - completed
 strategy:
   matrix:
     node-version: "20.x"
