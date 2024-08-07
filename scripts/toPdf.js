@@ -9,7 +9,7 @@ async function init() {
     waitUntil: "networkidle2",
   });
   await page.pdf({
-    path: "output/cv.pdf",
+    path: "cv.pdf",
     format: "A4",
     printBackground: true,
   });
