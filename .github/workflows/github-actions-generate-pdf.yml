@@ -15,8 +15,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
+      - name: Set NODE_ENV to production
+        run: echo "NODE_ENV=development" >> $GITHUB_ENV
+
       - name: Install and Build 🔧
-          npm ci
+        run: npm ci
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
