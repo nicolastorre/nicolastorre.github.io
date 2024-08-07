@@ -30,7 +30,7 @@ jobs:
         run: |
           ls scripts/
           npm ci
-          node scripts/toPDF.js
+          node ./scripts/pdf.js
 
       - name: Archive code coverage results
         uses: actions/upload-artifact@v4
