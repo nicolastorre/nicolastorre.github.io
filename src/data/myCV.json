@@ -1,0 +1,23 @@
+{
+  "name": "TORRE",
+  "firstname": "Nicolas",
+  "jobTitle": "Full Stack NodeJS React developer",
+  "objectives": "I am a passionate developer with 9 years of experience in web and mobile development. I love coding, solving complex problems, and learning new technologies.",
+  "contacts": [
+    { "href": "tel:0660151755", "text": "06660151755", "icon": "phone" },
+    {
+      "href": "https://github.com/nicolastorre",
+      "text": "https://github.com/nicolastorre",
+      "icon": "github"
+    },
+    {
+      "href": "mailto:nicolas.torre@proton.fr",
+      "text": "nicolas.torre@proton.me",
+      "icon": "mail"
+    }
+  ],
+  "personalDetails": {
+    "age": 35
+  },
+  "skills": ["TypeScript", "PHP", "React", "React Native"]
+}

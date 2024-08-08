@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Paper from "./Paper";
+import MyCV from "./components/myCV/MyCV";
 
 function App() {
   return (
     <div className="App">
-      <Paper />{" "}
+      <MyCV />
     </div>
   );
 }
