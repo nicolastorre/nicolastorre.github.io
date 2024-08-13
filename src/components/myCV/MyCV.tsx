@@ -8,7 +8,7 @@ const MyCV = () => {
     <Sheet>
       <div className="flex flex-row">
         <SideBar data={myCVData} />
-        <Main />
+        <Main data={myCVData} />
       </div>
     </Sheet>
   );

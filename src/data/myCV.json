@@ -39,5 +39,19 @@
     "PostgreSQL",
     "Docker",
     "Github Actions"
+  ],
+  "workExperiences": [
+    {
+      "title": "Freelance",
+      "position": "Full-Stack React / React Native / NodeJS developer",
+      "duration": "2024",
+      "responsibilities": "Development of NodeJS, React, and React Native applications with MySQL and PostgreSQL databases."
+    },
+    {
+      "title": "E2time.com, RH solution startup",
+      "position": "Full-Stack React / React Native / NodeJS developer",
+      "duration": "November 2019 - November 2023",
+      "responsibilities": "Responsible for the redesign, evolution, maintenance, and deployment of a React Native mobile application (iOS and Android). Feature development with Redux and REST API in PHP. Creation of unit and functional tests (Jest, React Native Testing Library, ADB, PHPUnit) with GitLab CI. Development and maintenance of an Android Java application for biometric time clocks (RxJava, Room)."
+    }
   ]
 }
