@@ -49,9 +49,33 @@
     },
     {
       "title": "E2time.com, RH solution startup",
-      "position": "Full-Stack React / React Native / NodeJS developer",
+      "position": "Full-Stack mobile React / React Native / PHP developer",
       "duration": "November 2019 - November 2023",
       "responsibilities": "Responsible for the redesign, evolution, maintenance, and deployment of a React Native mobile application (iOS and Android). Feature development with Redux and REST API in PHP. Creation of unit and functional tests (Jest, React Native Testing Library, ADB, PHPUnit) with GitLab CI. Development and maintenance of an Android Java application for biometric time clocks (RxJava, Room)."
+    },
+    {
+      "title": "Cawita, web app agency",
+      "position": "Full-Stack Angular NodeJS developer",
+      "duration": "May 2019 - August 2019",
+      "responsibilities": "Development of a NodeJS / MongoDB / Angular web application focused on the digitalization of business processes."
+    },
+    {
+      "title": "Gaya, web agency",
+      "position": "Full-Stack PHP / JS Developer",
+      "duration": "January 2017 - August 2018",
+      "responsibilities": "Backend development of Drupal 8 plugins and themes."
+    },
+    {
+      "title": "Kinaxia, real estate diagnostic startup",
+      "position": "Full-Stack PHP / JS Developer",
+      "duration": "September 2018 - December 2018",
+      "responsibilities": "Development of an Angular web application and a REST API in PHP. Creation of a Node.js REST API for geocoding (Google API Geocoding, OpenData API Adresse, API IGN)."
+    },
+    {
+      "title": "Gaya, web agency",
+      "position": "Full-Stack PHP / JS Developer",
+      "duration": "May 2015 - June 2016",
+      "responsibilities": "Development of features within the backend team for TYPO3 / FLOW showcase websites."
     }
   ]
 }
