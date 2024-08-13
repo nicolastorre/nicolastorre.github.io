@@ -3,9 +3,15 @@ export interface MyCVData {
   firstname: string;
   jobTitle: string;
   objectives: string;
-  contacts?: { href: string; text: string; icon: string }[];
+  contacts?: {
+    href: string;
+    text: string;
+    icon: { prefix: string; name: string };
+  }[];
   personalDetails: {
     age: number;
+    nationality: string;
+    language: string;
   };
   skills?: string[];
 }

@@ -1,5 +1,7 @@
 import { MyCVData } from "../../../interface/MyCVData";
 import avatar from "../../../assets/images/avatar.png";
+import DynamicIcon from "../../dynamicIcon/DynamicIcon";
+import { IconName, IconPrefix } from "@fortawesome/fontawesome-svg-core";
 
 type SideBarProps = {
   data: MyCVData;
@@ -9,15 +11,15 @@ const SideBar = ({ data }: SideBarProps) => {
   return (
     <div className="h-[297mm] w-1/3 bg-stone-400">
       <div className="flex flex-col justify-center items-center">
-        <div className="p-4 m-2">
-          <img src={avatar} width="256" height="256" alt="avatar" />
+        <div className="p-4">
+          <img src={avatar} width="200" height="200" alt="avatar" />
         </div>
-        <div className="bg-blue-700 p-4 m-2">
-          <h1 className="text-white text-3xl font-bold text-center">
+        <div className="bg-blue-700 p-4 rounded">
+          <h1 className="text-white text-xl font-bold text-center">
             {data.firstname} {data.name}
           </h1>
         </div>
-        <div className="p-4 m-2">
+        <div className="p-4">
           <h2 className="text-blue-700 text-xl font-bold text-center">
             {data.jobTitle}
           </h2>
@@ -25,20 +27,35 @@ const SideBar = ({ data }: SideBarProps) => {
         {data?.contacts ? (
           <div className="p-4 m-2 flex flex-col justify-center items-center">
             {data.contacts.map((contact) => (
-              <a href={contact.href}>{contact.text}</a>
+              <div className="w-[100%] flex flex-row justify-start text mb">
+                <div className="mr-2">
+                  <DynamicIcon
+                    prefix={contact.icon.prefix as IconPrefix}
+                    iconName={contact.icon.name as IconName}
+                  />
+                </div>
+                <a href={contact.href} target="blank">
+                  {contact.text}
+                </a>
+              </div>
             ))}
           </div>
         ) : null}
-        <div className="p-4 m-2">
+        <div className="p-4">
           <h3 className="text-black font-bold text-center">Objectives</h3>
-          <p>{data.objectives}</p>
+          <p className="text-black text-justify">{data.objectives}</p>
         </div>
-        <div className="p-4 m-2">
+        <div className="p-4">
           <h3 className="text-black font-bold text-center">Personal details</h3>
-          <p>age: {data.personalDetails.age}</p>
+          {Object.keys(data.personalDetails).map((key: string) => (
+            <p>
+              {key}:{" "}
+              {data.personalDetails[key as keyof MyCVData["personalDetails"]]}
+            </p>
+          ))}
         </div>
         {data?.skills ? (
-          <div className="p-4 m-2">
+          <div className="p-4">
             <h3 className="text-black font-bold text-center">Skills</h3>
             {data.skills?.map((skill) => (
               <p>{skill}</p>
