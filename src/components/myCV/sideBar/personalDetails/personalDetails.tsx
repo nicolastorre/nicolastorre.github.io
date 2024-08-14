@@ -11,8 +11,8 @@ const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
         Personal details
       </h3>
       {Object.keys(personalDetailsData).map((key: string) => (
-        <div className="flex flex-row justify-between">
-          <p className="text text-sm capitalize mr-2">{key}:</p>
+        <div className="flex flex-row justify-between mb-2">
+          <p className="text text-sm capitalize font-bold mr-2">{key}:</p>
           <p className="text text-sm">
             {personalDetailsData[key as keyof MyCVData["personalDetails"]]}
           </p>
