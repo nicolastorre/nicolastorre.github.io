@@ -2,7 +2,6 @@ const puppeteer = require("puppeteer");
 
 const args = process.argv.slice(2);
 const CV_URL = args[0] || "http://localhost:3000";
-console.log(CV_URL);
 
 async function generatePDF(url) {
   const browser = await puppeteer.launch();
@@ -11,7 +10,7 @@ async function generatePDF(url) {
     waitUntil: "networkidle2",
   });
   await page.pdf({
-    path: "cv_en.pdf",
+    path: "cv.pdf",
     format: "A4",
     printBackground: true,
     landscape: false,
