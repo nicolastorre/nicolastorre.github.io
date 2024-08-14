@@ -12,9 +12,11 @@ export interface Education {
 }
 
 export interface MyCVData {
-  name: string;
-  firstname: string;
-  jobTitle: string;
+  profile: {
+    name: string;
+    firstname: string;
+    jobTitle: string;
+  };
   objectives: string;
   contacts?: {
     href: string;
