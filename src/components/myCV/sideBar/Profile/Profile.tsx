@@ -1,5 +1,5 @@
 import { MyCVData } from "../../../../interface/MyCVData";
-import avatar from "../../../assets/images/avatar.png";
+import avatar from "../../../../assets/images/avatar.png";
 
 type ProfileProps = {
   profileData: MyCVData["profile"];
@@ -7,7 +7,7 @@ type ProfileProps = {
 
 const Profile = ({ profileData }: ProfileProps) => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <div className="p-4">
         <img src={avatar} width="128" height="128" alt="avatar" />
       </div>
