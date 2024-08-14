@@ -10,7 +10,7 @@ async function generatePDF(url) {
     waitUntil: "networkidle2",
   });
   await page.pdf({
-    path: "cv.pdf",
+    path: "cv_en.pdf",
     format: "A4",
     printBackground: true,
     landscape: false,
