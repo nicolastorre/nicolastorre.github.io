@@ -9,7 +9,7 @@ type SideBarProps = {
 
 const SideBar = ({ data }: SideBarProps) => {
   return (
-    <div className="h-[297mm] w-1/3 bg-stone-400">
+    <div className="h-full w-1/3 bg-stone-400">
       <div className="flex flex-col justify-center items-center">
         <div className="p-4">
           <img src={avatar} width="128" height="128" alt="avatar" />
@@ -34,7 +34,7 @@ const SideBar = ({ data }: SideBarProps) => {
                     iconName={contact.icon.name as IconName}
                   />
                 </div>
-                <a href={contact.href} target="blank">
+                <a href={contact.href} target="blank" className="text text-sm">
                   {contact.text}
                 </a>
               </div>

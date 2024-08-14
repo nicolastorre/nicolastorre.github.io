@@ -77,5 +77,21 @@
       "duration": "May 2015 - June 2016",
       "responsibilities": "Development of features within the backend team for TYPO3 / FLOW showcase websites."
     }
+  ],
+  "educations": [
+    {
+      "title": "Licence Professionnelle Informatique Multimedia Appliquée",
+      "duration": "2015",
+      "place": "Université de Nice"
+    },
+    {
+      "title": "Doctorat en écologie génétique",
+      "duration": "2011 - 2013",
+      "place": "Institut de Biologie Valrose (Nice)"
+    },
+    {
+      "title": "Licence & Master recherche biologie",
+      "duration": "2006 - 2011"
+    }
   ]
 }

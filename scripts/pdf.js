@@ -13,6 +13,13 @@ async function generatePDF(url) {
     path: "cv.pdf",
     format: "A4",
     printBackground: true,
+    landscape: false,
+    margin: {
+      top: "0mm",
+      right: "0mm",
+      bottom: "0mm",
+      left: "0mm",
+    },
   });
 
   await browser.close();

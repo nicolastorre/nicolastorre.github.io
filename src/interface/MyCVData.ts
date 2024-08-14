@@ -4,6 +4,13 @@ export interface WorkExperience {
   duration: string;
   responsibilities: string;
 }
+
+export interface Education {
+  title: string;
+  duration: string;
+  place?: string;
+}
+
 export interface MyCVData {
   name: string;
   firstname: string;
@@ -21,4 +28,5 @@ export interface MyCVData {
   };
   skills?: string[];
   workExperiences: WorkExperience[];
+  educations: Education[];
 }
