@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import backgroundImage from "../../assets/images/background.webp";
 
@@ -19,20 +20,20 @@ const Home: React.FC = () => {
           resume in English or French.
         </p>
         <div className="flex justify-around">
-          <a
-            href="/cv/fr"
+          <Link
+            to="/cv/fr"
             target="_blank"
             className="bg-blue-800 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
           >
             French CV
-          </a>
-          <a
-            href="/cv/en"
+          </Link>
+          <Link
+            to="/cv/en"
             target="_blank"
             className="bg-red-600 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition duration-300"
           >
             English CV
-          </a>
+          </Link>
         </div>
       </div>
     </div>

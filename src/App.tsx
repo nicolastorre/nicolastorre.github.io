@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import CV_NicolasTorre_en_v1 from "./data/CV_NicolasTorre_en_v1.json";
 import CV_NicolasTorre_fr_v1 from "./data/CV_NicolasTorre_fr_v1.json";
@@ -8,7 +8,7 @@ import Home from "./pages/home/Home";
 import Error from "./pages/error/Error";
 import Root from "./rootLayout";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
