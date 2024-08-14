@@ -9,7 +9,13 @@ const Profile = ({ profileData }: ProfileProps) => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="p-4">
-        <img src={avatar} width="128" height="128" alt="avatar" />
+        <img
+          src={avatar}
+          width="128"
+          height="128"
+          alt="avatar"
+          className="rounded-xl"
+        />
       </div>
       <div className="bg-blue-700 p-2 rounded">
         <h1 className="text-white font-bold text-center">
