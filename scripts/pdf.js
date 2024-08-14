@@ -2,6 +2,7 @@ const puppeteer = require("puppeteer");
 
 const args = process.argv.slice(2);
 const CV_URL = args[0] || "http://localhost:3000";
+console.log(CV_URL);
 
 async function generatePDF(url) {
   const browser = await puppeteer.launch();
