@@ -12,15 +12,15 @@ const SideBar = ({ data }: SideBarProps) => {
     <div className="h-[297mm] w-1/3 bg-stone-400">
       <div className="flex flex-col justify-center items-center">
         <div className="p-4">
-          <img src={avatar} width="200" height="200" alt="avatar" />
+          <img src={avatar} width="128" height="128" alt="avatar" />
         </div>
-        <div className="bg-blue-700 p-4 rounded">
-          <h1 className="text-white text-xl font-bold text-center">
+        <div className="bg-blue-700 p-2 rounded">
+          <h1 className="text-white font-bold text-center">
             {data.firstname} {data.name}
           </h1>
         </div>
         <div className="p-4">
-          <h2 className="text-blue-700 text-xl font-bold text-center">
+          <h2 className="text-blue-700 font-bold text-center">
             {data.jobTitle}
           </h2>
         </div>
@@ -43,7 +43,7 @@ const SideBar = ({ data }: SideBarProps) => {
         ) : null}
         <div className="p-4">
           <h3 className="text-black font-bold text-center">Objectives</h3>
-          <p className="text-black text-justify">{data.objectives}</p>
+          <p className="text-black text-sm text-justify">{data.objectives}</p>
         </div>
         <div className="p-4">
           <h3 className="text-black font-bold text-center">Personal details</h3>

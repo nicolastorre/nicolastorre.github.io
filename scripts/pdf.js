@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
 const args = process.argv.slice(2);
-const CV_URL = args[0] || "https://localhost:3000";
+const CV_URL = args[0] || "http://localhost:3000";
 
 async function generatePDF(url) {
   const browser = await puppeteer.launch();

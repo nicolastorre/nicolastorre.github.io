@@ -8,7 +8,7 @@ type MyCVProps = {
 const Sheet = ({ children }: MyCVProps) => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="a4-paper w-full max-w-[210mm] h-[297mm] mx-auto">
+      <div className="a4-paper w-full max-w-[210mm] h-[297mm] mx-auto overflow-hidden">
         {children}
       </div>
     </div>
