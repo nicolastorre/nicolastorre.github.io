@@ -1,5 +1,5 @@
 import { MyCVData } from "../../../../interface/MyCVData";
-import WorkExperience from "./workExperience/workExperiences";
+import WorkExperience from "./workExperience/workExperience";
 
 type WorkExperiencesProps = {
   workExperiencesData: MyCVData["workExperiences"];

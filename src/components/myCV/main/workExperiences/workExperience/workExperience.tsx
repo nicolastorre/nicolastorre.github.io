@@ -13,7 +13,7 @@ const WorkExperience = ({ workExperienceData }: WorkExperienceProps) => {
           <p className="text text-sm mb-2">{workExperienceData.title}</p>
         </div>
         <div>
-          <p className="text text-sm mb-2">{workExperienceData.duration}</p>
+          <p className="text text-xs mb-2">{workExperienceData.duration}</p>
         </div>
       </div>
       <p className="text text-xs text-justify">
