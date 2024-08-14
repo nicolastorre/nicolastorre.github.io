@@ -10,7 +10,7 @@ const WorkExperience = ({ workExperienceData }: WorkExperienceProps) => {
       <div className="flex flex-row justify-between">
         <div className="w-[60%]">
           <h4 className="text font-bold">{workExperienceData.position}</h4>
-          <p className="text text-sm mb-2">{workExperienceData.title}</p>
+          <p className="text text-sm mb-2">{workExperienceData.company}</p>
         </div>
         <div>
           <p className="text text-xs mb-2">{workExperienceData.duration}</p>
