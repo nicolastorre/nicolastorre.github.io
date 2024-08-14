@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "name": "TORRE",
+    "firstname": "Nicolas",
+    "jobTitle": "Développeur full stack NodeJS React"
+  },
+  "objectives": "Je suis un développeur passionné avec 9 ans d'expérience dans le développement web et mobile. J'aime coder, résoudre des problèmes complexes et apprendre de nouvelles technologies.",
+  "contacts": [
+    {
+      "href": "tel:0660151755",
+      "text": "06 60 15 17 55",
+      "icon": { "prefix": "fa", "name": "phone" }
+    },
+    {
+      "href": "https://github.com/nicolastorre",
+      "text": "nicolastorre",
+      "icon": { "prefix": "fab", "name": "github" }
+    },
+    {
+      "href": "mailto:nicolas.torre@proton.fr",
+      "text": "nicolas.torre@proton.me",
+      "icon": { "prefix": "fa", "name": "envelope" }
+    },
+    {
+      "href": "https://nicolastorre.github.io",
+      "text": "https://nicolastorre.github.io",
+      "icon": { "prefix": "fa", "name": "globe" }
+    }
+  ],
+  "personalDetails": {
+    "age": 35,
+    "nationality": "Française",
+    "language": "Anglais professionnel"
+  },
+  "skills": [
+    "TypeScript",
+    "PHP",
+    "React",
+    "React Native",
+    "MySQL",
+    "PostgreSQL",
+    "Docker",
+    "Github Actions"
+  ],
+  "workExperiences": [
+    {
+      "company": "Freelance",
+      "position": "Développeur Full-Stack React NodeJS",
+      "duration": "2024",
+      "responsibilities": "Développement d'applications NodeJS, React, et React Native avec des bases de données MySQL et PostgreSQL."
+    },
+    {
+      "company": "E2time.com, startup solution RH (full remote)",
+      "position": "Développeur Full-Stack React Native PHP",
+      "duration": "Nov 2019 - Nov 2023",
+      "responsibilities": "Responsable de la refonte, de l'évolution, de la maintenance et du déploiement d'une application mobile React Native (iOS et Android). Développement de fonctionnalités avec Redux et REST API en PHP. Création de tests unitaires et fonctionnels (Jest, React Native Testing Library, ADB, PHPUnit) avec GitLab CI. Développement et maintenance d'une application Android Java pour des horloges biométriques (RxJava, Room)."
+    },
+    {
+      "company": "Cawita, agence de développement web (Colle sur Loup)",
+      "position": "Développeur Full-Stack Angular NodeJS",
+      "duration": "Mai 2019 - Août 2019",
+      "responsibilities": "Développement d'une application web NodeJS, MongoDB, Angular axée sur la numérisation des processus métier."
+    },
+    {
+      "company": "Gaya, agence web (full remote)",
+      "position": "Développeur Full-Stack PHP JS",
+      "duration": "Jan 2017 - Août 2018",
+      "responsibilities": "Développement backend de plugins et thèmes Drupal 8."
+    },
+    {
+      "company": "Kinaxia, startup de diagnostic immobilier (Valbonne)",
+      "position": "Développeur Full-Stack PHP JS",
+      "duration": "Sept 2018 - Déc 2018",
+      "responsibilities": "Développement d'une application web Angular et d'une API REST en PHP. Création d'une API REST Node.js pour le géocodage (Google API Geocoding, OpenData API Adresse, API IGN)."
+    },
+    {
+      "company": "Gaya, agence web (Paris)",
+      "position": "Développeur Full-Stack PHP JS",
+      "duration": "Mai 2015 - Juin 2016",
+      "responsibilities": "Développement de fonctionnalités au sein de l'équipe backend pour des sites vitrines TYPO3 / FLOW."
+    }
+  ],
+  "educations": [
+    {
+      "title": "Licence professionnelle en Informatique Appliquée et Multimédia",
+      "duration": "2015",
+      "place": "Université de Nice"
+    },
+    {
+      "title": "Doctorat en Écologie Génétique",
+      "duration": "2011 - 2013",
+      "place": "Institut de Biologie Valrose (Nice)"
+    },
+    {
+      "title": "Licence & Master de Recherche en Biologie",
+      "duration": "2006 - 2011",
+      "place": "Université de Nice"
+    }
+  ]
+}
