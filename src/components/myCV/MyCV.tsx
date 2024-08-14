@@ -1,14 +1,18 @@
 import Sheet from "../sheet/Sheet";
 import Main from "./main/main";
 import SideBar from "./sideBar/SideBar";
-import myCVData from "../../data/myCV.json";
+import { MyCVData } from "../../interface/MyCVData";
 
-const MyCV = () => {
+type MyCVProps = {
+  data: MyCVData;
+};
+
+const MyCV = ({ data }: MyCVProps) => {
   return (
     <Sheet>
       <div className="h-full flex flex-row">
-        <SideBar data={myCVData} />
-        <Main data={myCVData} />
+        <SideBar data={data} />
+        <Main data={data} />
       </div>
     </Sheet>
   );
