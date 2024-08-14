@@ -1,4 +1,4 @@
-import { WorkExperience as WorkExperienceInterface } from "../../../../../interface/MyCVData";
+import { WorkExperience as WorkExperienceInterface } from "../../../../../interface/CVData";
 
 type WorkExperienceProps = {
   workExperienceData: WorkExperienceInterface;

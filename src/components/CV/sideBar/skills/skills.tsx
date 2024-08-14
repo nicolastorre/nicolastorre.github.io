@@ -1,7 +1,7 @@
-import { MyCVData } from "../../../../interface/MyCVData";
+import { CVData } from "../../../../interface/CVData";
 
 type SkillsProps = {
-  skillsData: MyCVData["skills"];
+  skillsData: CVData["skills"];
 };
 
 const Skills = ({ skillsData }: SkillsProps) => {

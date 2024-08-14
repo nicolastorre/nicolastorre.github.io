@@ -1,13 +1,13 @@
 import Sheet from "../sheet/Sheet";
 import Main from "./main/main";
 import SideBar from "./sideBar/SideBar";
-import { MyCVData } from "../../interface/MyCVData";
+import { CVData } from "../../interface/CVData";
 
-type MyCVProps = {
-  data: MyCVData;
+type CVProps = {
+  data: CVData;
 };
 
-const MyCV = ({ data }: MyCVProps) => {
+const CV = ({ data }: CVProps) => {
   return (
     <Sheet>
       <div className="h-full flex flex-row">
@@ -18,4 +18,4 @@ const MyCV = ({ data }: MyCVProps) => {
   );
 };
 
-export default MyCV;
+export default CV;

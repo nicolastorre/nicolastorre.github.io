@@ -1,7 +1,7 @@
-import { MyCVData } from "../../../../interface/MyCVData";
+import { CVData } from "../../../../interface/CVData";
 
 type ObjectivesProps = {
-  objectivesData: MyCVData["objectives"];
+  objectivesData: CVData["objectives"];
 };
 
 const Objectives = ({ objectivesData }: ObjectivesProps) => {

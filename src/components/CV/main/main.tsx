@@ -1,9 +1,9 @@
-import { MyCVData } from "../../../interface/MyCVData";
+import { CVData } from "../../../interface/CVData";
 import Educations from "./eductions/educations";
 import WorkExperiences from "./workExperiences/workExperiences";
 
 type MainProps = {
-  data: MyCVData;
+  data: CVData;
 };
 
 const Main = ({ data }: MainProps) => {

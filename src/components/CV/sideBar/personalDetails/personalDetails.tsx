@@ -1,7 +1,7 @@
-import { MyCVData } from "../../../../interface/MyCVData";
+import { CVData } from "../../../../interface/CVData";
 
 type PersonalDetailsProps = {
-  personalDetailsData: MyCVData["personalDetails"];
+  personalDetailsData: CVData["personalDetails"];
 };
 
 const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
@@ -14,7 +14,7 @@ const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
         <div className="flex flex-row justify-between mb-2">
           <p className="text text-sm capitalize font-bold mr-2">{key}:</p>
           <p className="text text-sm">
-            {personalDetailsData[key as keyof MyCVData["personalDetails"]]}
+            {personalDetailsData[key as keyof CVData["personalDetails"]]}
           </p>
         </div>
       ))}

@@ -1,4 +1,4 @@
-import { MyCVData } from "../../../interface/MyCVData";
+import { CVData } from "../../../interface/CVData";
 import Contacts from "./contacts/contacts";
 import PersonalDetails from "./personalDetails/personalDetails";
 import Objectives from "./objectives/objectives";
@@ -6,7 +6,7 @@ import Skills from "./skills/skills";
 import Profile from "./Profile/Profile";
 
 type SideBarProps = {
-  data: MyCVData;
+  data: CVData;
 };
 
 const SideBar = ({ data }: SideBarProps) => {

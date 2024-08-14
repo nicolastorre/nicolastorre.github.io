@@ -1,8 +1,8 @@
-import { MyCVData } from "../../../../interface/MyCVData";
+import { CVData } from "../../../../interface/CVData";
 import avatar from "../../../../assets/images/avatar.png";
 
 type ProfileProps = {
-  profileData: MyCVData["profile"];
+  profileData: CVData["profile"];
 };
 
 const Profile = ({ profileData }: ProfileProps) => {

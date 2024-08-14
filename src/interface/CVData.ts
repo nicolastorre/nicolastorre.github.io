@@ -11,7 +11,7 @@ export interface Education {
   place?: string;
 }
 
-export interface MyCVData {
+export interface CVData {
   profile: {
     name: string;
     firstname: string;

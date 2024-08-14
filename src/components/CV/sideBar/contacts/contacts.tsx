@@ -1,9 +1,9 @@
 import { IconName, IconPrefix } from "@fortawesome/fontawesome-svg-core";
-import { MyCVData } from "../../../../interface/MyCVData";
+import { CVData } from "../../../../interface/CVData";
 import DynamicIcon from "../../../dynamicIcon/DynamicIcon";
 
 type ContactsProps = {
-  contactsData: MyCVData["contacts"];
+  contactsData: CVData["contacts"];
 };
 
 const Contacts = ({ contactsData }: ContactsProps) => {

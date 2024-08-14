@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import MyCV from "./components/myCV/MyCV";
-import myCVData from "./data/myCV.json";
+import CVData from "./data/myCV.json";
+import CV from "./components/CV/CV";
 
 function App() {
   return (
     <div className="App">
-      <MyCV data={myCVData} />
+      <CV data={CVData} />
     </div>
   );
 }
