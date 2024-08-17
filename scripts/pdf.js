@@ -12,7 +12,7 @@ const CV_URL_OUTPUT_JSON = [
   },
 ];
 
-const FOLDER_OUTPUT = "./output/";
+const FOLDER_OUTPUT = "./build/output/";
 
 async function generatePDF(url, output) {
   const browser = await puppeteer.launch();
