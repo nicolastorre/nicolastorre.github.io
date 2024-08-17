@@ -17,13 +17,6 @@ const Navbar: React.FC = () => {
           >
             Home
           </Link>
-          <Link
-            to="/cv/en"
-            target="_blank"
-            className="text-blue-800 hover:text-blue-600 transition duration-300"
-          >
-            CV
-          </Link>
         </div>
         <div className="md:hidden">
           <button
