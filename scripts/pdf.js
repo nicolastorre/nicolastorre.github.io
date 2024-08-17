@@ -37,6 +37,7 @@ async function generatePDF(url, output) {
 }
 
 CV_URL_OUTPUT_JSON.map((CV_URL_OUTPUT) => {
-  console.log(CV_URL_OUTPUT.URL, FOLDER_OUTPUT + CV_URL_OUTPUT.OUTPUT);
-  generatePDF(CV_URL_OUTPUT.URL, FOLDER_OUTPUT + CV_URL_OUTPUT.OUTPUT);
+  const output = __dirname + FOLDER_OUTPUT + CV_URL_OUTPUT.OUTPUT;
+  console.log(output);
+  generatePDF(CV_URL_OUTPUT.URL, output);
 });
