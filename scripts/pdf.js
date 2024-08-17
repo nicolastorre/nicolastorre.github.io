@@ -1,12 +1,14 @@
 const puppeteer = require("puppeteer");
 
+const BASE_URL = "https://nicolastorre.github.io";
+
 const CV_URL_OUTPUT_JSON = [
   {
-    URL: "https://nicolastorre.github.io/#/cv/en",
+    URL: BASE_URL + "/#/cv/en",
     OUTPUT: "cv_en.pdf",
   },
   {
-    URL: "https://nicolastorre.github.io/#/cv/fr",
+    URL: BASE_URL + "/#/cv/fr",
     OUTPUT: "cv_fr.pdf",
   },
 ];
@@ -37,6 +39,5 @@ async function generatePDF(url, output) {
 
 CV_URL_OUTPUT_JSON.map((CV_URL_OUTPUT) => {
   const output = __dirname + FOLDER_OUTPUT + CV_URL_OUTPUT.OUTPUT;
-  console.log(output);
   generatePDF(CV_URL_OUTPUT.URL, output);
 });
