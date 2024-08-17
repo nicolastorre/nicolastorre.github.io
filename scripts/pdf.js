@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 
-const args = process.argv.slice(2);
 const CV_URL_OUTPUT_JSON = [
   {
     URL: "https://nicolastorre.github.io/#/cv/en",

@@ -20,14 +20,14 @@ const Home: React.FC = () => {
         </p>
         <div className="flex justify-around">
           <a
-            href="outpput/cv_fra.pdf"
+            href="output/cv_fra.pdf"
             target="_blank"
             className="bg-blue-800 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
           >
             French CV
           </a>
           <a
-            href="outpput/cv_en.pdf"
+            href="output/cv_en.pdf"
             target="_blank"
             className="bg-red-600 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition duration-300"
           >
