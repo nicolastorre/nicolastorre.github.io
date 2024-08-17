@@ -20,20 +20,20 @@ const Home: React.FC = () => {
           resume in English or French.
         </p>
         <div className="flex justify-around">
-          <Link
-            to="/cv/fr"
+          <a
+            href="outpput/cv_fra.pdf"
             target="_blank"
             className="bg-blue-800 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
           >
             French CV
-          </Link>
-          <Link
-            to="/cv/en"
+          </a>
+          <a
+            href="outpput/cv_en.pdf"
             target="_blank"
             className="bg-red-600 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition duration-300"
           >
             English CV
-          </Link>
+          </a>
         </div>
       </div>
     </div>
