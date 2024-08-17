@@ -32,7 +32,7 @@ jobs:
         run: |
           npm ci
           npm run build
-          node ./scripts/pdf.js ${{ secrets.CV_URL }}
+          node ./scripts/pdf.js ${{ secrets.CV_URL_OUTPUT_JSON }}
 
       - name: Archive code coverage results
         uses: actions/upload-artifact@v4
