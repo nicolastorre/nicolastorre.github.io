@@ -1,8 +1,16 @@
 const puppeteer = require("puppeteer");
 
 const args = process.argv.slice(2);
-const CV_URL_OUTPUT_JSON = JSON.parse(args[0]) || [];
-
+const CV_URL_OUTPUT_JSON = [
+  {
+    URL: "https://nicolastorre.github.io/#/cv/en",
+    OUTPUT: "cv_en.pdf",
+  },
+  {
+    URL: "https://nicolastorre.github.io/#/cv/fr",
+    OUTPUT: "cv_fr.pdf",
+  },
+];
 async function generatePDF(url, output) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
