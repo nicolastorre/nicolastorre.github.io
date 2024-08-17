@@ -48,13 +48,6 @@ const Navbar: React.FC = () => {
           >
             Home
           </Link>
-          <Link
-            to="/cv/en"
-            target="_blank"
-            className="block text-blue-800 hover:text-blue-600 p-2 transition duration-300"
-          >
-            CV
-          </Link>
         </div>
       )}
     </nav>
