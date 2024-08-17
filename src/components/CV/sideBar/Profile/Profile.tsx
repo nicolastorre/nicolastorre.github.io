@@ -11,8 +11,8 @@ const Profile = ({ profileData }: ProfileProps) => {
       <div className="p-4">
         <img
           src={avatar}
-          width="128"
-          height="128"
+          width="90"
+          height="90"
           alt="avatar"
           className="rounded-xl"
         />
