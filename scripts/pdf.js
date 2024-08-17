@@ -11,6 +11,9 @@ const CV_URL_OUTPUT_JSON = [
     OUTPUT: "cv_fr.pdf",
   },
 ];
+
+const FOLDER_OUTPUT = "./output/";
+
 async function generatePDF(url, output) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -34,5 +37,6 @@ async function generatePDF(url, output) {
 }
 
 CV_URL_OUTPUT_JSON.map((CV_URL_OUTPUT) => {
-  generatePDF(CV_URL_OUTPUT.URL, CV_URL_OUTPUT.OUTPUT);
+  console.log(CV_URL_OUTPUT.URL, FOLDER_OUTPUT.CV_URL_OUTPUT.OUTPUT);
+  generatePDF(CV_URL_OUTPUT.URL, FOLDER_OUTPUT.CV_URL_OUTPUT.OUTPUT);
 });

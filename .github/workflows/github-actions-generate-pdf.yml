@@ -32,6 +32,7 @@ jobs:
         run: |
           npm ci
           npm run build
+          mkdir output
           node ./scripts/pdf.js ${{ secrets.CV_URL_OUTPUT_JSON }}
 
       - name: Archive code coverage results
