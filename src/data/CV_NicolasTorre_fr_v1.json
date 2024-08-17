@@ -56,7 +56,7 @@
       "responsibilities": "Responsable de la refonte, de l'évolution, de la maintenance et du déploiement d'une application mobile React Native (iOS et Android). Développement de fonctionnalités avec Redux et REST API en PHP. Création de tests unitaires et fonctionnels (Jest, React Native Testing Library, ADB, PHPUnit) avec GitLab CI. Développement et maintenance d'une application Android Java pour des horloges biométriques (RxJava, Room)."
     },
     {
-      "company": "Cawita, agence de développement web (Colle sur Loup)",
+      "company": "Cawita, agence de développement web (La Colle sur Loup)",
       "position": "Développeur Full-Stack Angular NodeJS",
       "duration": "Mai 2019 - Août 2019",
       "responsibilities": "Développement d'une application web NodeJS, MongoDB, Angular axée sur la numérisation des processus métier."
@@ -69,8 +69,8 @@
     },
     {
       "company": "Kinaxia, startup de diagnostic immobilier (Valbonne)",
-      "position": "Développeur Full-Stack PHP JS",
-      "duration": "Sept 2018 - Déc 2018",
+      "position": "Développeur Full-Stack PHP AngularJS",
+      "duration": "Sept 2016 - Déc 2016",
       "responsibilities": "Développement d'une application web Angular et d'une API REST en PHP. Création d'une API REST Node.js pour le géocodage (Google API Geocoding, OpenData API Adresse, API IGN)."
     },
     {

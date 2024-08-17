@@ -56,7 +56,7 @@
       "responsibilities": "Responsible for the redesign, evolution, maintenance, and deployment of a React Native mobile application (iOS and Android). Feature development with Redux and REST API in PHP. Creation of unit and functional tests (Jest, React Native Testing Library, ADB, PHPUnit) with GitLab CI. Development and maintenance of an Android Java application for biometric time clocks (RxJava, Room)."
     },
     {
-      "company": "Cawita, web app agency (Colle sur Loup)",
+      "company": "Cawita, web app agency (La Colle sur Loup)",
       "position": "Full-Stack Angular NodeJS developer",
       "duration": "May 2019 - Aug 2019",
       "responsibilities": "Development of a NodeJS, MongoDB, Angular web application focused on the digitalization of business processes."
@@ -69,8 +69,8 @@
     },
     {
       "company": "Kinaxia, real estate diagnostic startup (Valbonne)",
-      "position": "Full-Stack PHP JS Developer",
-      "duration": "Sept 2018 - Dec 2018",
+      "position": "Full-Stack PHP AngularJS Developer",
+      "duration": "Sept 2016 - Dec 2016",
       "responsibilities": "Development of an Angular web application and a REST API in PHP. Creation of a Node.js REST API for geocoding (Google API Geocoding, OpenData API Adresse, API IGN)."
     },
     {
