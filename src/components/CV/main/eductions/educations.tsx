@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { CVData } from "../../../../interface/CVData";
 import Education from "./education/education";
 
@@ -6,9 +7,11 @@ type EducationsProps = {
 };
 
 const Educations = ({ educationsData }: EducationsProps) => {
+  const { t } = useTranslation();
+
   return (
     <div className="p-4 m-2">
-      <h3 className="text font-bold">Educations</h3>
+      <h3 className="text font-bold">{t("EDUCATIONS")}</h3>
       {educationsData.map((educationData) => {
         return <Education educationData={educationData} />;
       })}

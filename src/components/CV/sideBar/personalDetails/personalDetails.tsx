@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { CVData } from "../../../../interface/CVData";
 
 type PersonalDetailsProps = {
@@ -5,10 +6,12 @@ type PersonalDetailsProps = {
 };
 
 const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
+  const { t } = useTranslation();
+
   return (
     <div className="p-4">
       <h3 className="text-black font-bold text-center mb-2">
-        Personal details
+        {t("PERSONAL_DETAILS")}
       </h3>
       {Object.keys(personalDetailsData).map((key: string) => (
         <div className="flex flex-row justify-between mb-2">
