@@ -10,7 +10,7 @@ const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
 
   return (
     <div className="p-4">
-      <h3 className="text-black font-bold text-center mb-2">
+      <h3 className="text-black font-bold underline text-center mb-2">
         {t("PERSONAL_DETAILS")}
       </h3>
       {Object.keys(personalDetailsData).map((key: string) => (

@@ -12,7 +12,7 @@ const Skills = ({ skillsData }: SkillsProps) => {
     <>
       {skillsData ? (
         <div className="p-4">
-          <h3 className="text-black font-bold text-center mb-2">
+          <h3 className="text-black font-bold underline text-center mb-2">
             {t("SKILLS")}
           </h3>
           <div className="flex flex-wrap gap-2  ">
