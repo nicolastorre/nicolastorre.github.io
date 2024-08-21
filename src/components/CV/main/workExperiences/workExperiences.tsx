@@ -11,7 +11,7 @@ const WorkExperiences = ({ workExperiencesData }: WorkExperiencesProps) => {
 
   return (
     <div className="p-4">
-      <h3 className="text font-bold">{t("WORK_EXPERIENCES")}</h3>
+      <h3 className="text font-bold underline">{t("WORK_EXPERIENCES")}</h3>
       {workExperiencesData.map((workExperienceData) => {
         return <WorkExperience workExperienceData={workExperienceData} />;
       })}

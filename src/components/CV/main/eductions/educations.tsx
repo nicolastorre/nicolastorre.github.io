@@ -11,7 +11,7 @@ const Educations = ({ educationsData }: EducationsProps) => {
 
   return (
     <div className="p-4 m-2">
-      <h3 className="text font-bold">{t("EDUCATIONS")}</h3>
+      <h3 className="text font-bold underline">{t("EDUCATIONS")}</h3>
       {educationsData.map((educationData) => {
         return <Education educationData={educationData} />;
       })}
