@@ -7,11 +7,6 @@
   "objectives": "I am a passionate developer with 9 years of experience in web and mobile development. I love coding, solving complex problems, and learning new technologies.",
   "contacts": [
     {
-      "href": "tel:0660151755",
-      "text": "06 60 15 17 55",
-      "icon": { "prefix": "fa", "name": "phone" }
-    },
-    {
       "href": "https://github.com/nicolastorre",
       "text": "nicolastorre",
       "icon": { "prefix": "fab", "name": "github" }

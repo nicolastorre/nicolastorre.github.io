@@ -7,11 +7,6 @@
   "objectives": "Je suis un développeur passionné avec 9 ans d'expérience dans le développement web et mobile. J'aime coder, résoudre des problèmes complexes et apprendre de nouvelles technologies.",
   "contacts": [
     {
-      "href": "tel:0660151755",
-      "text": "06 60 15 17 55",
-      "icon": { "prefix": "fa", "name": "phone" }
-    },
-    {
       "href": "https://github.com/nicolastorre",
       "text": "nicolastorre",
       "icon": { "prefix": "fab", "name": "github" }
