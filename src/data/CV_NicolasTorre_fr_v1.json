@@ -20,6 +20,11 @@
       "href": "https://nicolastorre.github.io",
       "text": "https://nicolastorre.github.io",
       "icon": { "prefix": "fa", "name": "globe" }
+    },
+    {
+      "href": "https://www.linkedin.com/in/nicotorre",
+      "text": "https://www.linkedin.com/in/nicotorre",
+      "icon": { "prefix": "fab", "name": "linkedin" }
     }
   ],
   "personalDetails": {
