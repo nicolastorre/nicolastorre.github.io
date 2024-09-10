@@ -16,7 +16,7 @@ const Contacts = ({ contactsData }: ContactsProps) => {
         {t("CONTACTS")}
       </h3>
       {contactsData ? (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center px-2">
           {contactsData.map((contact) => (
             <div className="w-[100%] flex flex-row justify-start text mb">
               <div className="mr-2">

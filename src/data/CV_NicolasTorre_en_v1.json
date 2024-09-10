@@ -46,9 +46,9 @@
   "workExperiences": [
     {
       "company": "Freelance",
-      "position": "Full-Stack React NodeJS developer",
+      "position": "Full-Stack React PHP NodeJS developer",
       "duration": "May 2024 - current",
-      "responsibilities": "Development of NodeJS, React, and React Native applications with MySQL and PostgreSQL databases."
+      "responsibilities": "Development of PHP, NodeJS, React, and React Native applications with MySQL and PostgreSQL databases."
     },
     {
       "company": "E2time.com, RH solution startup (full remote)",
