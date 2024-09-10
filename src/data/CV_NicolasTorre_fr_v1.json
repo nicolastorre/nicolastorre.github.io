@@ -2,7 +2,7 @@
   "profile": {
     "name": "TORRE",
     "firstname": "Nicolas",
-    "jobTitle": "Développeur full stack NodeJS React"
+    "jobTitle": "Développeur full stack"
   },
   "objectives": "Je suis un développeur passionné avec 9 ans d'expérience dans le développement web et mobile. J'aime coder, résoudre des problèmes complexes et apprendre de nouvelles technologies.",
   "contacts": [
@@ -35,6 +35,7 @@
   "skills": [
     "TypeScript",
     "PHP",
+    "Symfony",
     "React",
     "React Native",
     "MySQL",
