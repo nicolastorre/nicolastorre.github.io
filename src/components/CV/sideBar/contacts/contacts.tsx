@@ -16,16 +16,16 @@ const Contacts = ({ contactsData }: ContactsProps) => {
         {t("CONTACTS")}
       </h3>
       {contactsData ? (
-        <div className="flex flex-col justify-center items-center px-2">
+        <div className="flex flex-col justify-center items-start">
           {contactsData.map((contact) => (
-            <div className="w-[100%] flex flex-row justify-start text mb">
+            <div className="flex flex-row justify-center text text-xs mb-2">
               <div className="mr-2">
                 <DynamicIcon
                   prefix={contact.icon.prefix as IconPrefix}
                   iconName={contact.icon.name as IconName}
                 />
               </div>
-              <a href={contact.href} target="blank" className="text text-sm">
+              <a href={contact.href} target="blank" className="text">
                 {contact.text}
               </a>
             </div>
