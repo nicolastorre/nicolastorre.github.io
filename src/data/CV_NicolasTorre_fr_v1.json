@@ -2,7 +2,7 @@
   "profile": {
     "name": "TORRE",
     "firstname": "Nicolas",
-    "jobTitle": "Développeur full stack"
+    "jobTitle": "Développeur full stack NodeJS React Native"
   },
   "objectives": "Je suis un développeur passionné avec 9 ans d'expérience dans le développement web et mobile. J'aime coder, résoudre des problèmes complexes et apprendre de nouvelles technologies.",
   "contacts": [
@@ -48,7 +48,7 @@
       "company": "Freelance",
       "position": "Développeur Full-Stack React, PHP, NodeJS",
       "duration": "Mai 2024 - actuel",
-      "responsibilities": "Développement d'applications PHP, NodeJS, React, et React Native avec des bases de données MySQL et PostgreSQL."
+      "responsibilities": "Développement d'applications NodeJS, React, et React Native avec des bases de données MySQL et PostgreSQL."
     },
     {
       "company": "E2time.com, startup solution RH (télétravail complet)",
