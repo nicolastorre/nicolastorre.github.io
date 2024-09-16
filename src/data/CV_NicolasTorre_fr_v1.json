@@ -34,8 +34,9 @@
   },
   "skills": [
     "TypeScript",
+    "NodeJS",
+    "NestJS",
     "PHP",
-    "Symfony",
     "React",
     "React Native",
     "MySQL",
