@@ -16,7 +16,7 @@ const PersonalDetails = ({ personalDetailsData }: PersonalDetailsProps) => {
       {Object.keys(personalDetailsData).map((key: string) => (
         <div className="flex flex-row justify-between mb-2">
           <p className="text text-sm capitalize font-bold mr-2">{key}:</p>
-          <p className="text text-sm">
+          <p className="text text-sm text-right">
             {personalDetailsData[key as keyof CVData["personalDetails"]]}
           </p>
         </div>
