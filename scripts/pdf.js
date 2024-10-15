@@ -16,7 +16,9 @@ const CV_URL_OUTPUT_JSON = [
 const FOLDER_OUTPUT = "/../build/output/";
 
 async function generatePDF(url, output) {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
   const page = await browser.newPage();
   await page.goto(url, {
     waitUntil: "networkidle2",
