@@ -52,6 +52,12 @@
       "responsibilities": "Développement d'applications NodeJS, React, et React Native avec des bases de données MySQL et PostgreSQL."
     },
     {
+      "company": "SimpliField",
+      "position": "Senior Frontend React native developer",
+      "duration": "Jan 2024 - Apr 2024",
+      "responsibilities": "Refonte et évolution de l'application principale React Native en utilisant realm, redux et clean architecture"
+    },
+    {
       "company": "E2time.com, startup solution RH (télétravail complet)",
       "position": "Développeur Full-Stack React Native PHP",
       "duration": "Nov 2019 - Nov 2023",
