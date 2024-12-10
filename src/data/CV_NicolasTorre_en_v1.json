@@ -61,7 +61,7 @@
       "company": "E2time.com, RH solution startup (full remote)",
       "position": "Full-Stack React Native PHP developer",
       "duration": "Nov 2019 - Nov 2023",
-      "responsibilities": "Responsible for the redesign, evolution, maintenance, and deployment of a React Native mobile application (iOS and Android). Feature development with Redux and REST API in PHP. Creation of unit and functional tests (Jest, React Native Testing Library, ADB, PHPUnit) with GitLab CI. Development and maintenance of an Android Java application for biometric time clocks (RxJava, Room)."
+      "responsibilities": "Redesigned and maintained a React Native app (iOS/Android) with Redux, REST API, and tests (Jest, PHPUnit) using GitLab CI. Developed an Android Java app for biometric clocks (RxJava, Room)."
     },
     {
       "company": "Cawita, web app agency (La Colle sur Loup)",

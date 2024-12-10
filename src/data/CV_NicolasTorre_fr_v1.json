@@ -61,7 +61,7 @@
       "company": "E2time.com, startup solution RH (télétravail complet)",
       "position": "Développeur Full-Stack React Native PHP",
       "duration": "Nov 2019 - Nov 2023",
-      "responsibilities": "Responsable de la refonte, de l'évolution, de la maintenance et du déploiement d'une application mobile React Native (iOS et Android). Développement de fonctionnalités avec Redux et REST API en PHP. Création de tests unitaires et fonctionnels (Jest, React Native Testing Library, ADB, PHPUnit) avec GitLab CI. Développement et maintenance d'une application Android Java pour des horloges biométriques (RxJava, Room)."
+      "responsibilities": "Refonte, maintenance et déploiement d'une application mobile React Native (iOS/Android) avec Redux et API REST. Création de tests unitaires et fonctionnels (Jest, PHPUnit) via GitLab CI. Développement et maintenance d'une application Android en Java pour des pointeuses biométriques (RxJava, Room)."
     },
     {
       "company": "Cawita, agence de développement web (La Colle sur Loup)",
