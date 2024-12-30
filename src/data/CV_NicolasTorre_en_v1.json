@@ -47,9 +47,9 @@
   "workExperiences": [
     {
       "company": "Freelance",
-      "position": "Full-Stack React PHP NodeJS developer",
+      "position": "Full-Stack Developer | Node.js, React & React Native",
       "duration": "May 2024 - current",
-      "responsibilities": "Development of PHP, NodeJS, React, and React Native applications with MySQL and PostgreSQL databases."
+      "responsibilities": "Development of NodeJS, React, and React Native applications with MySQL and PostgreSQL databases."
     },
     {
       "company": "SimpliField",
@@ -59,9 +59,9 @@
     },
     {
       "company": "E2time.com, RH solution startup (full remote)",
-      "position": "Full-Stack React Native PHP developer",
+      "position": "Senior full stack developer | React Native, NodeJS",
       "duration": "Nov 2019 - Nov 2023",
-      "responsibilities": "Redesigned and maintained a React Native app (iOS/Android) with Redux, REST API, and tests (Jest, PHPUnit) using GitLab CI. Developed an Android Java app for biometric clocks (RxJava, Room)."
+      "responsibilities": "Redesigned and maintained a React Native app (iOS/Android) with Redux, REST API, and tests (Jest, PHPUnit) using GitLab CI."
     },
     {
       "company": "Cawita, web app agency (La Colle sur Loup)",
