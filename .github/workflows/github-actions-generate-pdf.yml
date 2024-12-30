@@ -35,14 +35,15 @@ jobs:
           mkdir build/output
           node ./scripts/pdf.js ${{ secrets.CV_URL_OUTPUT_JSON }}
 
-      - name: Archive code coverage results
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv
-          path: cv.pdf
+      - name: Install Ghostscript
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ghostscript
 
-      - name: Preprare deploy
-        run: mv cv.pdf build/
+      - name: Compress PDF with Ghostscript
+        run: |
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=build/output/cv_nicolastorre_fr.pdf build/output/cv_fr.pdf |
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=build/output/cv_nicolastorre_en.pdf build/output/cv_en.pdf
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
